@@ -1,4 +1,6 @@
-<h1>Questions#answer</h1>
-<p>Find me in app/views/questions/answer.html.erb</p>
+<h1>Stupid Coach</h1>
+<p>You asked: <%= @question %></p>
 
-<p><%= @answer %></p>
+<p>Coach says: <%= @answer %></p>
+
+<p><%= link_to 'Ask your coach something else, if you dare…', ask_path %></p>
